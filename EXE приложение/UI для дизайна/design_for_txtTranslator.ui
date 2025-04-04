@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(247, 248, 251);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>500</width>
+     <height>350</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="QComboBox" name="translate_language">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;PT Sans&quot;;
+text-decoration: underline;
+border: 1px solid  rgb(171, 171, 171);
+background-color: #FFF;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QPushButton" name="choose_file">
+      <property name="styleSheet">
+       <string notr="true">font: 18pt &quot;PT Sans&quot;;
+border: 1px solid rgb(214, 214, 214);
+border-radius: 20px;
+background-color: rgb(214, 214, 214);</string>
+      </property>
+      <property name="text">
+       <string>Выбрать файл</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 18pt &quot;PT Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Оригинальный текст</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 18pt &quot;PT Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Переведенный файл</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QComboBox" name="original_language">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;PT Sans&quot;;
+text-decoration: underline;
+border: 1px solid  rgb(171, 171, 171);
+background-color: #FFF;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPlainTextEdit" name="original_text_from_file">
+      <property name="styleSheet">
+       <string notr="true">font: 12px &quot;PT Sans&quot;;
+background-color: #FFF;
+border: 1px solid  rgb(171, 171, 171);</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPlainTextEdit" name="translated_text_from_file">
+      <property name="styleSheet">
+       <string notr="true">font: 12px &quot;PT Sans&quot;;
+background-color: #FFF;
+border: 1px solid  rgb(171, 171, 171);</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="2">
+     <widget class="QPushButton" name="download_button">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 18pt &quot;PT Sans&quot;;
+border: 1px solid rgb(214, 214, 214);
+border-radius: 20px;
+background-color: rgb(214, 214, 214);</string>
+      </property>
+      <property name="text">
+       <string>Скачать</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

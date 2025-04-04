@@ -1,0 +1,7 @@
+aiogram==3.18.0
+easyocr==1.7.2
+googletrans==4.0.0rc1
+Pillow==11.1.0
+pymorphy3==2.0.3
+soundfile==0.13.1
+SpeechRecognition==3.14.1

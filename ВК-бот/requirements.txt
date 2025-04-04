@@ -1,0 +1,6 @@
+easyocr==1.7.2
+googletrans==4.0.0rc1
+Pillow==11.1.0
+pymorphy3==2.0.3
+Requests==2.32.3
+vkbottle==4.4.5
